@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Home{
+    background-color: #262626;
+    height: 100vh;
+    position: relative;
+}
+.content{
+    background-image: url(https://images.pexels.com/photos/290660/pexels-photo-290660.jpeg?cs=srgb&dl=pexels-pixabay-290660.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    width: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 60px;
+    left: 70px;
+}
+.content header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content header h1{
+    color:#ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.content header nav ul{
+    display: flex;
+    list-style: none;
+}
+.content header nav ul li{
+    margin: 15px 30px;
+    font-size: 20px;
+}
+.content header nav ul li a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.content header nav ul li a:hover{
+    border-bottom: 1px solid black;
+}
+.para{
+    margin-left: 70px;
+    margin-top: 80px;
+    font-size: 50px;
+}
+#Classical-Guitar{
+    background-color: #262626;
+    height: 100vh;
+}
+#Classical-Guitar h1{
+    text-align: center;
+    color:#ffffff ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.sec1 h3{
+    color:#ffffff ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 15px;
+    letter-spacing:3px ;
+    text-transform:uppercase ;
+    margin-top: 10px;
+}
+img:hover{
+  width:350px ;
+  transition-duration: 1s;
+  transition-delay: 0.2s;
+  transition-property: width;
+}
+#Electric-Guitar{
+    background-color: #262626;
+    height: 100vh;
+}
+#Electric-Guitar h1{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color:#f7f7f7 ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec2 h3{
+    color:#ffffff ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 15px;
+    letter-spacing:3px ;
+    text-transform:uppercase ;
+    margin-top: 10px;
+}
+#table{
+    background-color: #262626;
+    height: 100vh;
+    position: relative;
+}
+#table table{
+    background-color: #59595965;
+    color: #ffffff;
+    width: 80%;
+    height: 70vh;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    left: 110px;
+}
+#table table tr:hover{
+    background-color: #424242;
+}
+#table table th{
+    border: 1px solid white;
+    background-color:#262626;
+    padding: 10px;
+}
+#contact{
+    background-color: #262626;
+    height: 100vh;
+    position: relative;
+}
+#form{
+    margin: 0 90px;
+    position: absolute;
+    top: 90px;
+}
+#form h1{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+#form input{
+    border-radius: 15px;
+    border-color:#ffffff;
+    padding: 5px;
+    width: 200px;
+    background-color: #262626;
+}
+#form button{
+    border-radius: 15px;
+    width: 150px;
+    padding: 7px;
+    text-transform: uppercase;
+    margin-left: 60px;
+    color: #262626;
+    cursor: pointer;
+    border: none;
+}
+#form button:hover{
+    background: #424242;
+    transition: ease-out;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 90vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+.list h2{
+    border-bottom: 1px solid palevioletred;
+}
+.list ul{
+    list-style: none;
+}
+.list ul li{
+    margin: 10px 0;
+}
+.list ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.list ul li a:hover{
+    text-decoration: underline;
+}
+.para2{
+    position: absolute;
+    right: 250px;
+    top: 120px;
+    font-size: 50px;
+    color: #ffffff;
+    letter-spacing: 4px;
+    text-shadow: 5px 1px 1px purple;
+   
+}
+.icon ul{
+    display: flex;
+    margin-top: 50px;
+}
+i{
+    margin: 20px 15px;
+    font-size: 2em;
+}
+.facebook{
+    color: #3B5998;
+}
+.twitter{
+    color: #1DA1F2;
+}
+.instagram{
+    color: #f58529;
+}
+.linkden{
+    color: #0077B5;
+}
+@media(min-width:768px){
+    .bar{
+        display: none;
+    }
+}
+@media(max-width:768px){
+    #Home{
+        background-color: #3B5998;
+        position: relative;
+    }
+    .content{
+        background-image: none;
+    }
+    .menu-list{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        right: 100px;
+        left: 10px;
+        top: 5rem;
+    }
+    .para{
+        display: none;
+    }
+    #Classical-Guitar{
+        height: 290vh;
+    }
+    .sec1{
+        display: flex;
+       flex-direction: column;
+       gap: 4rem;
+    }
+    .sec1 .img3{
+        margin-right:2em ;
+    }
+    #Electric-Guitar{
+        height: 290vh;
+    }
+    
+    .sec2{
+        display: flex;
+       flex-direction: column;
+       gap: 4rem;
+
+    }
+    .sec2 h1{
+        position: absolute;
+        left: 10px;
+    }
+    }
+    .para2{
+        display: none;
+    }
+
